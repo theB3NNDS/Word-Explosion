@@ -29,8 +29,8 @@ typing_font = pygame.font.Font('assets/VT323-Regular.ttf', 50)
 system_font = pygame.font.Font('assets/Teko-VariableFont_wght.ttf', 30)
 
 # Network configuration
-HOST = '127.0.0.1'
-PORT = 65432
+HOST = '192.168.100.102'
+PORT = 5555
 
 # Function to handle receiving messages from the server
 def receive_messages(sock):

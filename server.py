@@ -6,8 +6,8 @@ import enchant
 EN_dictionary = enchant.Dict("en_US")
 
 # Server configuration
-HOST = '127.0.0.1'  # Localhost
-PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
+HOST = '192.168.100.102'  # Localhost
+PORT = 5555        # Port to listen on (non-privileged ports are > 1023)
 
 # Generate a bigram
 def generate_bigram():
